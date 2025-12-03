@@ -91,7 +91,7 @@ def get_vectorstore():
 def get_llm():
     pipe = pipeline(
         "text2text-generation",
-        model="google/flan-t5-base",
+        model="google/flan-t5-small",
         max_new_tokens=256,
         temperature=0.1
     )
@@ -176,3 +176,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
