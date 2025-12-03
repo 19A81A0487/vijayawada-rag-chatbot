@@ -1,0 +1,8 @@
+streamlit
+langchain-community
+langchain-text-splitters
+transformers
+sentence-transformers
+faiss-cpu
+accelerate
+pandas
